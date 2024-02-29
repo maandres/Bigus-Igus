@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001577] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001728] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099182] (-) TimerEvent: {}
+[0.200144] (-) TimerEvent: {}
+[0.301962] (-) TimerEvent: {}
+[0.403967] (-) TimerEvent: {}
+[0.504867] (-) TimerEvent: {}
+[0.605883] (-) TimerEvent: {}
+[0.706875] (-) TimerEvent: {}
+[0.807622] (-) TimerEvent: {}
+[0.908397] (-) TimerEvent: {}
+[1.009105] (-) TimerEvent: {}
+[1.109780] (-) TimerEvent: {}
+[1.210479] (-) TimerEvent: {}
+[1.311357] (-) TimerEvent: {}
+[1.412030] (-) TimerEvent: {}
+[1.512721] (-) TimerEvent: {}
+[1.613485] (-) TimerEvent: {}
+[1.714257] (-) TimerEvent: {}
+[1.815243] (-) TimerEvent: {}
+[1.916209] (-) TimerEvent: {}
+[2.017349] (-) TimerEvent: {}
+[2.118414] (-) TimerEvent: {}
+[2.219277] (-) TimerEvent: {}
+[2.320002] (-) TimerEvent: {}
+[2.420749] (-) TimerEvent: {}
+[2.521474] (-) TimerEvent: {}
+[2.622380] (-) TimerEvent: {}
+[2.723184] (-) TimerEvent: {}
+[2.823849] (-) TimerEvent: {}
+[2.924525] (-) TimerEvent: {}
+[3.025217] (-) TimerEvent: {}
+[3.126312] (-) TimerEvent: {}
+[3.226976] (-) TimerEvent: {}
+[3.327685] (-) TimerEvent: {}
+[3.428418] (-) TimerEvent: {}
+[3.529140] (-) TimerEvent: {}
+[3.629884] (-) TimerEvent: {}
+[3.730837] (-) TimerEvent: {}
+[3.831672] (-) TimerEvent: {}
+[3.909310] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/perry/bigus-igus/ws/build/py_pubsub/build', 'install', '--record', '/home/perry/bigus-igus/ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/perry/bigus-igus/ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'perry', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/perry', 'OLDPWD': '/home/perry/bigus-igus', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'iron', 'LOGNAME': 'perry', 'WINDOWID': '44046723', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/perry-desktop:@/tmp/.ICE-unix/1260,unix/perry-desktop:/tmp/.ICE-unix/1260', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/perry/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/perry', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/perry/bigus-igus/ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/perry/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/perry/bigus-igus/ws/build/py_pubsub/prefix_override:/home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[3.931894] (-) TimerEvent: {}
+[4.032745] (-) TimerEvent: {}
+[4.133475] (-) TimerEvent: {}
+[4.234245] (-) TimerEvent: {}
+[4.335174] (-) TimerEvent: {}
+[4.435933] (-) TimerEvent: {}
+[4.536600] (-) TimerEvent: {}
+[4.643452] (-) TimerEvent: {}
+[4.744127] (-) TimerEvent: {}
+[4.844790] (-) TimerEvent: {}
+[4.945498] (-) TimerEvent: {}
+[5.046243] (-) TimerEvent: {}
+[5.146937] (-) TimerEvent: {}
+[5.243734] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.246873] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[5.247438] (-) TimerEvent: {}
+[5.248530] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[5.249262] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[5.250165] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[5.250893] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[5.260179] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.262622] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.265475] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.266151] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.266679] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.267561] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/perry/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.269433] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[5.270906] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.271542] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.272607] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[5.277712] (py_pubsub) StdoutLine: {'line': b'copying /home/perry/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[5.282740] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[5.285517] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[5.288624] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.300731] (py_pubsub) StdoutLine: {'line': b"removing '/home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.302632] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[5.308806] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[5.347653] (-) TimerEvent: {}
+[5.398226] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/perry/bigus-igus/ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.399373] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/perry/bigus-igus/ws/install/py_pubsub/lib/py_pubsub\n'}
+[5.401217] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/perry/bigus-igus/ws/build/py_pubsub/install.log'\n"}
+[5.447951] (-) TimerEvent: {}
+[5.531198] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.548161] (-) TimerEvent: {}
+[5.649075] (-) TimerEvent: {}
+[5.750426] (-) TimerEvent: {}
+[5.842923] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.846107] (-) EventReactorShutdown: {}
