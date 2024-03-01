@@ -24,16 +24,33 @@ class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
-        timer_period = 5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+        
         self.i = 0
+        timer_period = 5  # seconds
+        
+        self.publisher_ = self.create_publisher(String, 'mov_vel_010', 10)
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        
+        self.publisher1_ = self.create_publisher(String, 'mov_vel_020', 10)
+        self.timer1 = self.create_timer(timer_period, self.timer_callback1)
 
     def timer_callback(self):
         msg = String()
         #msg.data = 'Hello World: %d' % self.i
-        msg.data = '000#00.00'
+        msg.data = '00.00'
         self.publisher_.publish(msg)
+        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.i += 1
+
+        #Enviem el missatge al robot
+        #https://unix.stackexchange.com/questions/238180/execute-shell-commands-in-python
+        os.system('cansend can0 111#11.11')
+        
+    def timer_callback1(self):
+        msg = String()
+        #msg.data = 'Hello World: %d' % self.i
+        msg.data = '00.00'
+        self.publisher1_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1
 

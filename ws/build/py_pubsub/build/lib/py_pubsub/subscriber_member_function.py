@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#Afegim la llibreria de tota la vida TODO aprendre com afegir altres 
+#Afegim la llibreria de tota la vida. TODO: aprendre com afegir altres llibreries
 import os
 
 import rclpy
@@ -25,12 +25,23 @@ class MinimalSubscriber(Node):
 
     def __init__(self):
         super().__init__('minimal_subscriber')
+        
+        
+        # Aquesta declaració és obligatoria per inicia parametre, encara que usem launchfile per assignar valors als parametres
+        from rcl_interfaces.msg import ParameterDescriptor
+        my_parameter_descriptor = ParameterDescriptor(description='Id de la controladora a la qual es dirigeix el node')
+        self.declare_parameter('board_id', '010', my_parameter_descriptor)
+        # ------
+        
+        self.board_id=self.get_parameter('board_id').get_parameter_value().string_value
+        
         self.subscription = self.create_subscription(
             String,
-            'topic',
+            'mov_vel_'+self.board_id,
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
+        
 
     def listener_callback(self, msg):
         """Resposta a un nou missatge"""
@@ -44,20 +55,26 @@ class MinimalSubscriber(Node):
         for timer in self.timers:      
             self.destroy_timer(timer)
            
-        #Creem el nou timer
-        self.timer = self.create_timer(timer_period, self.timer_callback, msg.data)
         self.i = 0
+        
+        #Guardem la dada en un atribut que perduri en el temps (msg.data es perd)
+        self.moviment = msg.data
+        
+        #Creem el nou timer
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        
 
-    def timer_callback(self, moviment):
+    def timer_callback(self):
         """Crida iterada de moviment de robot"""
         msg = String()
-        msg.data = 'Funció iterativa SUBSCRIBER: %d' % self.i 
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        msg.data = 'Motor ' + self.board_id + ' executa iterativament velocitat de ' + self.moviment 
+        self.get_logger().info('Publicant: "%s"' % msg.data)
         self.i += 1
         
         #Enviem el missatge al robot
         #https://unix.stackexchange.com/questions/238180/execute-shell-commands-in-python
-        os.system('cansend can0 '+moviment)
+        
+        os.system('cansend can0 '+ self.board_id + '#' + self.moviment)
 
 
 def main(args=None):
