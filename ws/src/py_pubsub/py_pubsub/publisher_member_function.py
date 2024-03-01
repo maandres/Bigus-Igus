@@ -15,6 +15,7 @@
 import os
 
 import rclpy
+#Documentació node https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/node.py
 from rclpy.node import Node
 
 from std_msgs.msg import String
@@ -27,6 +28,8 @@ class MinimalPublisher(Node):
         
         self.i = 0
         timer_period = 5  # seconds
+        
+        #Documentació timer https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/timer.py
         
         self.publisher_ = self.create_publisher(String, 'mov_vel_010', 10)
         self.timer = self.create_timer(timer_period, self.timer_callback)

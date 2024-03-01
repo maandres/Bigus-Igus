@@ -8,7 +8,7 @@ for (( ; ; ))
 do
   echo $i
   sleep $temps_cicle
-  cansend can1 010#25.00.90.01
+  cansend can0 030#25.00.30.01
   i=$((i+1))
 
 done

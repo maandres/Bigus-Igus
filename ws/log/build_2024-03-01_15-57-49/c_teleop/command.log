@@ -1,0 +1,6 @@
+Invoking command in '/home/perry/bigus-igus/ws/build/c_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/perry/bigus-igus/ws/src/c_teleop -DCMAKE_INSTALL_PREFIX=/home/perry/bigus-igus/ws/install/c_teleop
+Invoked command in '/home/perry/bigus-igus/ws/build/c_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/perry/bigus-igus/ws/src/c_teleop -DCMAKE_INSTALL_PREFIX=/home/perry/bigus-igus/ws/install/c_teleop
+Invoking command in '/home/perry/bigus-igus/ws/build/c_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/perry/bigus-igus/ws/build/c_teleop -- -j4 -l4
+Invoked command in '/home/perry/bigus-igus/ws/build/c_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/perry/bigus-igus/ws/build/c_teleop -- -j4 -l4
+Invoking command in '/home/perry/bigus-igus/ws/build/c_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/perry/bigus-igus/ws/build/c_teleop
+Invoked command in '/home/perry/bigus-igus/ws/build/c_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/perry/bigus-igus/ws/build/c_teleop

@@ -1,0 +1,51 @@
+[0.576s] Invoking command in '/home/perry/bigus-igus/ws/build/c_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/perry/bigus-igus/ws/src/c_teleop -DCMAKE_INSTALL_PREFIX=/home/perry/bigus-igus/ws/install/c_teleop
+[6.171s] -- The C compiler identification is GNU 11.4.0
+[9.934s] -- The CXX compiler identification is GNU 11.4.0
+[10.454s] -- Detecting C compiler ABI info
+[11.443s] -- Detecting C compiler ABI info - done
+[11.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.485s] -- Detecting C compile features
+[11.541s] -- Detecting C compile features - done
+[11.751s] -- Detecting CXX compiler ABI info
+[12.357s] -- Detecting CXX compiler ABI info - done
+[12.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.400s] -- Detecting CXX compile features
+[12.401s] -- Detecting CXX compile features - done
+[12.878s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[14.059s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[15.870s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[16.553s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.555s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/perry/bigus-igus/ws/src/c_teleop/include>
+[16.556s] -- Configured cppcheck exclude dirs and/or files: 
+[16.563s] -- Added test 'lint_cmake' to check CMake code style
+[16.572s] -- Added test 'uncrustify' to check C / C++ code style
+[16.572s] -- Configured uncrustify additional arguments: 
+[16.578s] -- Added test 'xmllint' to check XML markup files
+[16.585s] -- Configuring done
+[16.624s] -- Generating done
+[16.633s] -- Build files have been written to: /home/perry/bigus-igus/ws/build/c_teleop
+[16.653s] Invoked command in '/home/perry/bigus-igus/ws/build/c_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/perry/bigus-igus/ws/src/c_teleop -DCMAKE_INSTALL_PREFIX=/home/perry/bigus-igus/ws/install/c_teleop
+[16.665s] Invoking command in '/home/perry/bigus-igus/ws/build/c_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/perry/bigus-igus/ws/build/c_teleop -- -j4 -l4
+[16.923s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[17.435s] [100%] [32m[1mLinking CXX executable hello_world[0m
+[17.686s] [100%] Built target hello_world
+[17.736s] Invoked command in '/home/perry/bigus-igus/ws/build/c_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/perry/bigus-igus/ws/build/c_teleop -- -j4 -l4
+[17.991s] Invoking command in '/home/perry/bigus-igus/ws/build/c_teleop': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/perry/bigus-igus/ws/build/c_teleop
+[18.028s] -- Install configuration: ""
+[18.029s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/lib/c_teleop/hello_world
+[18.033s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/ament_index/resource_index/package_run_dependencies/c_teleop
+[18.036s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/ament_index/resource_index/parent_prefix_path/c_teleop
+[18.038s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/environment/ament_prefix_path.sh
+[18.038s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/environment/ament_prefix_path.dsv
+[18.043s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/environment/path.sh
+[18.046s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/environment/path.dsv
+[18.046s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/local_setup.bash
+[18.047s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/local_setup.sh
+[18.049s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/local_setup.zsh
+[18.052s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/local_setup.dsv
+[18.053s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/package.dsv
+[18.053s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/ament_index/resource_index/packages/c_teleop
+[18.054s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/cmake/c_teleopConfig.cmake
+[18.056s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/cmake/c_teleopConfig-version.cmake
+[18.062s] -- Installing: /home/perry/bigus-igus/ws/install/c_teleop/share/c_teleop/package.xml
+[18.069s] Invoked command in '/home/perry/bigus-igus/ws/build/c_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/perry/bigus-igus/ws/build/c_teleop

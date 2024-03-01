@@ -48,7 +48,7 @@ class MinimalSubscriber(Node):
         self.get_logger().info('I heard: "%s"' % msg.data)
         
         #Afegim la funció que executa comandes en bucle
-        timer_period = 0.5  # seconds
+        timer_period = 0.05  # seconds
             
         #https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/node.py
         #Destruïm tots els timers abans de crear un de nou
