@@ -30,7 +30,7 @@ ros2 launch py_pubsub py_pubsub_launch.py
 ### Run and test the keyboard control
 Run
 ```
-ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/namespace_1
 ```
 Teleoperate the robot using the keyboards:
  * Direction (WASD CV IJKL PÑ)

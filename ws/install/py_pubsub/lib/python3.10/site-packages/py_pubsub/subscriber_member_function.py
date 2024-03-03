@@ -16,6 +16,7 @@
 import os
 
 import rclpy
+#Documentació node https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/node.py
 from rclpy.node import Node
 
 from std_msgs.msg import String
@@ -50,7 +51,6 @@ class MinimalSubscriber(Node):
         #Afegim la funció que executa comandes en bucle
         timer_period = 0.05  # seconds
             
-        #https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/node.py
         #Destruïm tots els timers abans de crear un de nou
         for timer in self.timers:      
             self.destroy_timer(timer)
@@ -61,6 +61,7 @@ class MinimalSubscriber(Node):
         self.moviment = msg.data
         
         #Creem el nou timer
+        #Documentació timer https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/timer.py
         self.timer = self.create_timer(timer_period, self.timer_callback)
         
 
@@ -74,7 +75,7 @@ class MinimalSubscriber(Node):
         #Enviem el missatge al robot
         #https://unix.stackexchange.com/questions/238180/execute-shell-commands-in-python
         
-        os.system('cansend can0 '+ self.board_id + '#' + self.moviment)
+        os.system('cansend can0 '+ self.board_id + '#25.' + self.moviment + '.10')
 
 
 def main(args=None):

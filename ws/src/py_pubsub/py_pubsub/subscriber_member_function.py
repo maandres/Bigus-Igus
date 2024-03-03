@@ -38,7 +38,7 @@ class MinimalSubscriber(Node):
         
         self.subscription = self.create_subscription(
             String,
-            'mov_vel_'+self.board_id,
+            '/mov_vel_'+self.board_id,
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
@@ -75,7 +75,7 @@ class MinimalSubscriber(Node):
         #Enviem el missatge al robot
         #https://unix.stackexchange.com/questions/238180/execute-shell-commands-in-python
         
-        os.system('cansend can0 '+ self.board_id + '#' + self.moviment)
+        os.system('cansend can0 '+ self.board_id + '#25.' + self.moviment + '.10')
 
 
 def main(args=None):

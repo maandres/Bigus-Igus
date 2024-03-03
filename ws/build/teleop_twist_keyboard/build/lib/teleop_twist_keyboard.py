@@ -34,6 +34,7 @@
 import sys
 import threading
 import os
+import time
 
 import geometry_msgs.msg
 import rclpy
@@ -74,6 +75,7 @@ e/c : increase/decrease only angular speed by 10%
 CTRL-C to quit
 """
 
+# keypress down : ( motor id, hourly direction)
 moveBindings = {
     'w': ('010', True),              # -- CHANGED
     'a': ('020', True),
@@ -135,7 +137,12 @@ def stop_all_motors():
     for i in range(1,6):
         print('cansend can0 0' + str(i) + '0#01.0A')
         os.system('cansend can0 0' + str(i) + '0#01.0A')
-    
+
+def enable_reset_motor(motor, order):
+    time.sleep(0.2)
+    #print('cansend can0 ' + motor + order)
+    os.system('cansend can0 ' + motor + order)
+
 def main():
     settings = saveTerminalSettings()
 
@@ -190,14 +197,15 @@ def main():
         while True:
             key = getKey(settings)
             print("Has presionat la tecla ["+key+"]")  # -- ADDED                      
-            if key in moveBindings.keys():             # -- CHANED
+            
+            if key in moveBindings.keys() and moveBindings[key][0] == '000':
+                stop_all_motors()
+            elif key in moveBindings.keys():             # -- CHANED
                 msgg = String()
                 msgg.data = velocity[0] if moveBindings[key][1] == True else velocity[1]
-                if moveBindings[key][0] == 000:
-                    stop_all_motors()
-
-                elif moveBindings[key][0] == '010':
-                    pub1.publish(msgg)
+                
+                if moveBindings[key][0] == '010':
+                    pub1.publish(msgg)                    
                 elif moveBindings[key][0] == '020':
                     pub2.publish(msgg)
                 elif moveBindings[key][0] == '030':
@@ -207,7 +215,11 @@ def main():
                 elif moveBindings[key][0] == '050':
                     pub5.publish(msgg)
                 elif moveBindings[key][0] == '060':     
-                    pub6.publish(msgg)    
+                    pub6.publish(msgg)
+                    
+                enable_reset_motor(moveBindings[key][0],'#01.06')
+                enable_reset_motor(moveBindings[key][0],'#01.09')
+                
             elif key in speedBindings.keys():   # -- CHANGED
                 velocity = speedBindings[key]
             

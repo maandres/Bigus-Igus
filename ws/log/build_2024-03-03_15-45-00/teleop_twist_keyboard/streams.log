@@ -1,0 +1,27 @@
+[3.631s] Invoking command in '/home/maandres/bigus-igus/ws/src/teleop_twist_keyboard': PYTHONPATH=/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/prefix_override:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build install --record /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[4.704s] running egg_info
+[4.707s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[4.708s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[4.710s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[4.711s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[4.711s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[4.718s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[4.719s] adding license file 'LICENSE'
+[4.722s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[4.723s] running build
+[4.723s] running build_py
+[4.724s] copying teleop_twist_keyboard.py -> /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build/lib
+[4.724s] running install
+[4.725s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.726s]   warnings.warn(
+[4.726s] running install_lib
+[4.729s] copying /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[4.732s] byte-compiling /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[4.737s] running install_data
+[4.740s] running install_egg_info
+[4.747s] removing '/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info' (and everything under it)
+[4.748s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info
+[4.753s] running install_scripts
+[4.835s] Installing teleop_twist_keyboard script to /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[4.836s] writing list of installed files to '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/install.log'
+[4.960s] Invoked command in '/home/maandres/bigus-igus/ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/prefix_override:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build install --record /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

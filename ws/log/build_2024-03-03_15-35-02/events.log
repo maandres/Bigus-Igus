@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.001711] (-) JobUnselected: {'identifier': 'c_teleop'}
+[0.002478] (-) JobUnselected: {'identifier': 'c_teleop2'}
+[0.002651] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002978] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003079] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.003159] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098904] (-) TimerEvent: {}
+[0.199624] (-) TimerEvent: {}
+[0.300623] (-) TimerEvent: {}
+[0.374829] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.400850] (-) TimerEvent: {}
+[0.501591] (-) TimerEvent: {}
+[0.602918] (-) TimerEvent: {}
+[0.704137] (-) TimerEvent: {}
+[0.805188] (-) TimerEvent: {}
+[0.906255] (-) TimerEvent: {}
+[1.007370] (-) TimerEvent: {}
+[1.108271] (-) TimerEvent: {}
+[1.209102] (-) TimerEvent: {}
+[1.309796] (-) TimerEvent: {}
+[1.410447] (-) TimerEvent: {}
+[1.511081] (-) TimerEvent: {}
+[1.611745] (-) TimerEvent: {}
+[1.712439] (-) TimerEvent: {}
+[1.813270] (-) TimerEvent: {}
+[1.914440] (-) TimerEvent: {}
+[2.015277] (-) TimerEvent: {}
+[2.116519] (-) TimerEvent: {}
+[2.217537] (-) TimerEvent: {}
+[2.318220] (-) TimerEvent: {}
+[2.418934] (-) TimerEvent: {}
+[2.519653] (-) TimerEvent: {}
+[2.620497] (-) TimerEvent: {}
+[2.721246] (-) TimerEvent: {}
+[2.821965] (-) TimerEvent: {}
+[2.922610] (-) TimerEvent: {}
+[3.023277] (-) TimerEvent: {}
+[3.124028] (-) TimerEvent: {}
+[3.224777] (-) TimerEvent: {}
+[3.325637] (-) TimerEvent: {}
+[3.427504] (-) TimerEvent: {}
+[3.528746] (-) TimerEvent: {}
+[3.629548] (-) TimerEvent: {}
+[3.730792] (-) TimerEvent: {}
+[3.831526] (-) TimerEvent: {}
+[3.932305] (-) TimerEvent: {}
+[4.033310] (-) TimerEvent: {}
+[4.134089] (-) TimerEvent: {}
+[4.234813] (-) TimerEvent: {}
+[4.335528] (-) TimerEvent: {}
+[4.436282] (-) TimerEvent: {}
+[4.536969] (-) TimerEvent: {}
+[4.637678] (-) TimerEvent: {}
+[4.738452] (-) TimerEvent: {}
+[4.839189] (-) TimerEvent: {}
+[4.939893] (-) TimerEvent: {}
+[5.040706] (-) TimerEvent: {}
+[5.141510] (-) TimerEvent: {}
+[5.242454] (-) TimerEvent: {}
+[5.344359] (-) TimerEvent: {}
+[5.379961] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/maandres/bigus-igus/ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'maandres', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/maandres', 'OLDPWD': '/home/maandres/bigus-igus/ws/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'maandres', 'WINDOWID': '48277443', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/maandres-desktop:@/tmp/.ICE-unix/1234,unix/maandres-desktop:/tmp/.ICE-unix/1234', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/maandres/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/maandres', 'AMENT_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard:/home/maandres/bigus-igus/ws/install/py_pubsub:/home/maandres/bigus-igus/ws/install/c_teleop2:/home/maandres/bigus-igus/ws/install/c_teleop:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/maandres/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/prefix_override:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install/c_teleop2:/home/maandres/bigus-igus/ws/install/c_teleop', 'QT_FONT_DPI': '96'}, 'shell': False}
+[5.406877] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/maandres/bigus-igus/ws/build/py_pubsub/build', 'install', '--record', '/home/maandres/bigus-igus/ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/maandres/bigus-igus/ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'maandres', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/maandres', 'OLDPWD': '/home/maandres/bigus-igus/ws/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'maandres', 'WINDOWID': '48277443', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/maandres-desktop:@/tmp/.ICE-unix/1234,unix/maandres-desktop:/tmp/.ICE-unix/1234', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/maandres/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/maandres', 'AMENT_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard:/home/maandres/bigus-igus/ws/install/py_pubsub:/home/maandres/bigus-igus/ws/install/c_teleop2:/home/maandres/bigus-igus/ws/install/c_teleop:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/maandres/bigus-igus/ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/maandres/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/maandres/bigus-igus/ws/build/py_pubsub/prefix_override:/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install/c_teleop2:/home/maandres/bigus-igus/ws/install/c_teleop', 'QT_FONT_DPI': '96'}, 'shell': False}
+[5.444484] (-) TimerEvent: {}
+[5.545447] (-) TimerEvent: {}
+[5.646277] (-) TimerEvent: {}
+[5.747062] (-) TimerEvent: {}
+[5.847816] (-) TimerEvent: {}
+[5.948649] (-) TimerEvent: {}
+[6.049390] (-) TimerEvent: {}
+[6.150296] (-) TimerEvent: {}
+[6.250977] (-) TimerEvent: {}
+[6.351742] (-) TimerEvent: {}
+[6.452645] (-) TimerEvent: {}
+[6.553400] (-) TimerEvent: {}
+[6.633412] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[6.634503] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.637018] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[6.638353] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[6.638887] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[6.639756] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[6.640741] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[6.641431] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[6.642206] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[6.642716] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[6.643433] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[6.643872] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[6.650184] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.651243] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.651869] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.652781] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.653518] (-) TimerEvent: {}
+[6.654683] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.655655] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.656534] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[6.657037] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[6.657783] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build/lib\n'}
+[6.658380] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[6.658825] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[6.659483] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/maandres/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[6.660440] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[6.660977] (teleop_twist_keyboard) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.662338] (teleop_twist_keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.663028] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[6.663551] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[6.664016] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.664699] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.665375] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.665868] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[6.666450] (py_pubsub) StdoutLine: {'line': b'copying /home/maandres/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.666894] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[6.668895] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[6.670507] (py_pubsub) StderrLine: {'line': b'  File "/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py", line 78\n'}
+[6.671272] (py_pubsub) StderrLine: {'line': b"    os.system('cansend can0 '+ self.board_id + '#25.' + self.moviment + '.10)\n"}
+[6.671701] (py_pubsub) StderrLine: {'line': b'                                                                        ^\n'}
+[6.672197] (py_pubsub) StderrLine: {'line': b'SyntaxError: unterminated string literal (detected at line 78)\n'}
+[6.672785] (py_pubsub) StderrLine: {'line': b'\n'}
+[6.673227] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.673629] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[6.674196] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.675336] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.686506] (py_pubsub) StdoutLine: {'line': b"removing '/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.687160] (teleop_twist_keyboard) StdoutLine: {'line': b"removing '/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info' (and everything under it)\n"}
+[6.687642] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[6.688110] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info\n'}
+[6.690822] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.692762] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[6.753712] (-) TimerEvent: {}
+[6.781890] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/maandres/bigus-igus/ws/install/py_pubsub/lib/py_pubsub\n'}
+[6.792351] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[6.797607] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/install.log'\n"}
+[6.799722] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/maandres/bigus-igus/ws/install/py_pubsub/lib/py_pubsub\n'}
+[6.801776] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/maandres/bigus-igus/ws/build/py_pubsub/install.log'\n"}
+[6.854195] (-) TimerEvent: {}
+[6.956277] (-) TimerEvent: {}
+[6.976306] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[7.064599] (-) TimerEvent: {}
+[7.166206] (-) TimerEvent: {}
+[7.267763] (-) TimerEvent: {}
+[7.337634] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[7.342028] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.368655] (-) TimerEvent: {}
+[7.470829] (-) TimerEvent: {}
+[7.572079] (-) TimerEvent: {}
+[7.638006] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.640886] (-) EventReactorShutdown: {}

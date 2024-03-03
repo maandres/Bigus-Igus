@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py", line 78
+    os.system('cansend can0 '+ self.board_id + '#25.' + self.moviment + '.10)
+                                                                        ^
+SyntaxError: unterminated string literal (detected at line 78)
+
