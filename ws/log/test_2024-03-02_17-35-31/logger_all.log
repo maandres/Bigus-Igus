@@ -1,0 +1,147 @@
+[5.771s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test']
+[5.771s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7d8bbb80>, verb_extension=<colcon_core.verb.test.TestVerb object at 0xffff7de43af0>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0xffff7de43af0>>)
+[6.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.082s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maandres/bigus-igus/ws'
+[6.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extensions ['ignore', 'ignore_ament_install']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'ignore'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'ignore_ament_install'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extensions ['colcon_pkg']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'colcon_pkg'
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extensions ['colcon_meta']
+[6.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'colcon_meta'
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extensions ['ros']
+[6.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'ros'
+[6.179s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/c_teleop'
+[6.180s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/c_teleop': Error(s) in package 'src/c_teleop/package.xml':
+Error(s):
+- The manifest of package "c_teleop" (with format version 3) must not contain the following tags: run_depend
+- Please replace <run_depend> tags with <exec_depend> tags.
+[6.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extensions ['cmake', 'python']
+[6.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'cmake'
+[6.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_teleop) by extension 'python'
+[6.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c_teleop' with type 'cmake' and name 'c_teleop'
+[6.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[6.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[6.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[6.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[6.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[6.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[6.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[6.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[6.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[6.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[6.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.334s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'ctest_args' from command line to 'None'
+[6.335s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'python_testing' from command line to 'None'
+[6.335s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'pytest_args' from command line to 'None'
+[6.335s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'pytest_with_coverage' from command line to 'False'
+[6.335s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'unittest_args' from command line to 'None'
+[6.335s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'retest_until_pass' from command line to '0'
+[6.335s] Level 5:colcon.colcon_core.verb:set package 'c_teleop' test argument 'retest_until_fail' from command line to '0'
+[6.335s] DEBUG:colcon.colcon_core.verb.test:Testing package 'c_teleop' with the following arguments: {'build_base': '/home/maandres/bigus-igus/ws/build/c_teleop', 'ctest_args': None, 'install_base': '/home/maandres/bigus-igus/ws/install/c_teleop', 'path': '/home/maandres/bigus-igus/ws/src/c_teleop', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[6.369s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'ctest_args' from command line to 'None'
+[6.369s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'python_testing' from command line to 'None'
+[6.369s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'pytest_args' from command line to 'None'
+[6.369s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'pytest_with_coverage' from command line to 'False'
+[6.370s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'unittest_args' from command line to 'None'
+[6.370s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'retest_until_pass' from command line to '0'
+[6.370s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' test argument 'retest_until_fail' from command line to '0'
+[6.370s] DEBUG:colcon.colcon_core.verb.test:Testing package 'py_pubsub' with the following arguments: {'build_base': '/home/maandres/bigus-igus/ws/build/py_pubsub', 'ctest_args': None, 'install_base': '/home/maandres/bigus-igus/ws/install/py_pubsub', 'path': '/home/maandres/bigus-igus/ws/src/py_pubsub', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[6.401s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.435s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/maandres/bigus-igus/ws/src/c_teleop'
+[6.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.523s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/maandres/bigus-igus/ws/src/py_pubsub' with build type'ament_python'
+[6.524s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/maandres/bigus-igus/ws/src/py_pubsub'
+[6.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.621s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': Expected ['.', '/home/maandres/bigus-igus/ws/build/c_teleop/colcon_command_prefix_test.sh', '&&', 'env'] to pass: The build time path "/home/perry/bigus-igus/ws/install/c_teleop" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 306, in get_command_environment
+    return await extension.generate_command_environment(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 154, in generate_command_environment
+    env = await get_environment_variables(cmd, cwd=str(build_base))
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 342, in get_environment_variables
+    output = await check_output(cmd, cwd=cwd, shell=shell)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['.', '/home/maandres/bigus-igus/ws/build/c_teleop/colcon_command_prefix_test.sh', '&&', 'env'] to pass: The build time path "/home/perry/bigus-igus/ws/install/c_teleop" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+
+[6.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'bash' for command environment
+[6.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'zsh' for command environment
+[6.622s] ERROR:colcon.colcon_cmake.task.cmake.test:Could not find a shell extension for the command environment
+[6.625s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': Expected ['.', '/home/maandres/bigus-igus/ws/build/py_pubsub/colcon_command_prefix_setup_py.sh', '&&', 'env'] to pass: The build time path "/home/perry/bigus-igus/ws/install/py_pubsub" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 306, in get_command_environment
+    return await extension.generate_command_environment(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 154, in generate_command_environment
+    env = await get_environment_variables(cmd, cwd=str(build_base))
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 342, in get_environment_variables
+    output = await check_output(cmd, cwd=cwd, shell=shell)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['.', '/home/maandres/bigus-igus/ws/build/py_pubsub/colcon_command_prefix_setup_py.sh', '&&', 'env'] to pass: The build time path "/home/perry/bigus-igus/ws/install/py_pubsub" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+
+[6.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'bash' for command environment
+[6.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'zsh' for command environment
+[6.626s] ERROR:colcon.colcon_core.task.python.test:Could not find a shell extension for the command environment
+[6.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.638s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.638s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[6.638s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.719s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.196s] DEBUG:colcon.colcon_core.event_reactor:joined thread

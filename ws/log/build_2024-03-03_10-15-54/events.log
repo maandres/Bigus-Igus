@@ -1,0 +1,681 @@
+[0.000000] (-) TimerEvent: {}
+[0.000797] (-) JobUnselected: {'identifier': 'c_teleop'}
+[0.001683] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001773] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002272] (c_teleop2) JobQueued: {'identifier': 'c_teleop2', 'dependencies': OrderedDict()}
+[0.002365] (c_teleop2) JobStarted: {'identifier': 'c_teleop2'}
+[0.099098] (-) TimerEvent: {}
+[0.199900] (-) TimerEvent: {}
+[0.301561] (-) TimerEvent: {}
+[0.316962] (c_teleop2) JobProgress: {'identifier': 'c_teleop2', 'progress': 'cmake'}
+[0.317931] (c_teleop2) Command: {'cmd': ['/usr/bin/cmake', '/home/maandres/bigus-igus/ws/src/c_teleop2', '-DCMAKE_INSTALL_PREFIX=/home/maandres/bigus-igus/ws/install/c_teleop2'], 'cwd': '/home/maandres/bigus-igus/ws/build/c_teleop2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'maandres'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/maandres'), ('OLDPWD', '/home/maandres/bigus-igus/ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'maandres'), ('WINDOWID', '48237013'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maandres-desktop:@/tmp/.ICE-unix/1234,unix/maandres-desktop:/tmp/.ICE-unix/1234'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/maandres/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/maandres'), ('AMENT_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install/py_pubsub:/home/maandres/bigus-igus/ws/install/c_teleop:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/maandres/bigus-igus/ws/build/c_teleop2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/maandres/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install/c_teleop:/home/maandres/bigus-igus/ws/install/py_pubsub:/opt/ros/iron'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.401945] (-) TimerEvent: {}
+[0.503748] (-) TimerEvent: {}
+[0.604950] (-) TimerEvent: {}
+[0.706295] (-) TimerEvent: {}
+[0.807570] (-) TimerEvent: {}
+[0.908804] (-) TimerEvent: {}
+[1.010033] (-) TimerEvent: {}
+[1.111119] (-) TimerEvent: {}
+[1.212301] (-) TimerEvent: {}
+[1.313327] (-) TimerEvent: {}
+[1.414675] (-) TimerEvent: {}
+[1.515577] (-) TimerEvent: {}
+[1.616732] (-) TimerEvent: {}
+[1.718023] (-) TimerEvent: {}
+[1.819389] (-) TimerEvent: {}
+[1.920219] (-) TimerEvent: {}
+[2.021183] (-) TimerEvent: {}
+[2.122318] (-) TimerEvent: {}
+[2.223518] (-) TimerEvent: {}
+[2.324451] (-) TimerEvent: {}
+[2.425697] (-) TimerEvent: {}
+[2.526546] (-) TimerEvent: {}
+[2.627862] (-) TimerEvent: {}
+[2.729294] (-) TimerEvent: {}
+[2.830488] (-) TimerEvent: {}
+[2.931259] (-) TimerEvent: {}
+[3.032228] (-) TimerEvent: {}
+[3.133614] (-) TimerEvent: {}
+[3.234862] (-) TimerEvent: {}
+[3.335958] (-) TimerEvent: {}
+[3.437009] (-) TimerEvent: {}
+[3.538003] (-) TimerEvent: {}
+[3.638815] (-) TimerEvent: {}
+[3.739944] (-) TimerEvent: {}
+[3.841287] (-) TimerEvent: {}
+[3.942379] (-) TimerEvent: {}
+[4.043575] (-) TimerEvent: {}
+[4.144773] (-) TimerEvent: {}
+[4.245623] (-) TimerEvent: {}
+[4.346831] (-) TimerEvent: {}
+[4.448176] (-) TimerEvent: {}
+[4.549578] (-) TimerEvent: {}
+[4.650683] (-) TimerEvent: {}
+[4.752043] (-) TimerEvent: {}
+[4.853314] (-) TimerEvent: {}
+[4.954649] (-) TimerEvent: {}
+[5.055964] (-) TimerEvent: {}
+[5.157271] (-) TimerEvent: {}
+[5.258486] (-) TimerEvent: {}
+[5.359817] (-) TimerEvent: {}
+[5.461136] (-) TimerEvent: {}
+[5.562192] (-) TimerEvent: {}
+[5.663555] (-) TimerEvent: {}
+[5.719941] (c_teleop2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.763923] (-) TimerEvent: {}
+[5.865162] (-) TimerEvent: {}
+[5.966103] (-) TimerEvent: {}
+[6.067282] (-) TimerEvent: {}
+[6.168155] (-) TimerEvent: {}
+[6.269568] (-) TimerEvent: {}
+[6.370834] (-) TimerEvent: {}
+[6.472017] (-) TimerEvent: {}
+[6.573279] (-) TimerEvent: {}
+[6.674220] (-) TimerEvent: {}
+[6.775611] (-) TimerEvent: {}
+[6.876761] (-) TimerEvent: {}
+[7.007413] (-) TimerEvent: {}
+[7.108817] (-) TimerEvent: {}
+[7.210045] (-) TimerEvent: {}
+[7.311103] (-) TimerEvent: {}
+[7.412402] (-) TimerEvent: {}
+[7.513733] (-) TimerEvent: {}
+[7.615068] (-) TimerEvent: {}
+[7.716358] (-) TimerEvent: {}
+[7.817584] (-) TimerEvent: {}
+[7.919015] (-) TimerEvent: {}
+[8.020263] (-) TimerEvent: {}
+[8.121688] (-) TimerEvent: {}
+[8.223008] (-) TimerEvent: {}
+[8.324039] (-) TimerEvent: {}
+[8.425424] (-) TimerEvent: {}
+[8.526484] (-) TimerEvent: {}
+[8.627732] (-) TimerEvent: {}
+[8.729106] (-) TimerEvent: {}
+[8.830257] (-) TimerEvent: {}
+[8.931333] (-) TimerEvent: {}
+[9.032475] (-) TimerEvent: {}
+[9.133854] (-) TimerEvent: {}
+[9.235060] (-) TimerEvent: {}
+[9.336110] (-) TimerEvent: {}
+[9.437471] (-) TimerEvent: {}
+[9.538944] (-) TimerEvent: {}
+[9.640228] (-) TimerEvent: {}
+[9.741552] (-) TimerEvent: {}
+[9.842743] (-) TimerEvent: {}
+[9.943928] (-) TimerEvent: {}
+[10.045201] (-) TimerEvent: {}
+[10.146417] (-) TimerEvent: {}
+[10.247722] (-) TimerEvent: {}
+[10.348597] (-) TimerEvent: {}
+[10.449425] (-) TimerEvent: {}
+[10.517763] (c_teleop2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[10.549601] (-) TimerEvent: {}
+[10.650468] (-) TimerEvent: {}
+[10.751606] (-) TimerEvent: {}
+[10.852679] (-) TimerEvent: {}
+[10.953758] (-) TimerEvent: {}
+[11.054820] (-) TimerEvent: {}
+[11.155935] (-) TimerEvent: {}
+[11.256881] (-) TimerEvent: {}
+[11.310843] (c_teleop2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.357197] (-) TimerEvent: {}
+[11.458511] (-) TimerEvent: {}
+[11.559737] (-) TimerEvent: {}
+[11.660560] (-) TimerEvent: {}
+[11.761479] (-) TimerEvent: {}
+[11.862313] (-) TimerEvent: {}
+[11.886589] (c_teleop2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.915151] (c_teleop2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.917334] (c_teleop2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.920208] (c_teleop2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.936025] (c_teleop2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.962459] (-) TimerEvent: {}
+[12.063221] (-) TimerEvent: {}
+[12.164095] (-) TimerEvent: {}
+[12.265117] (-) TimerEvent: {}
+[12.320123] (c_teleop2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.346384] (c_teleop2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.347327] (c_teleop2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.348949] (c_teleop2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.365223] (-) TimerEvent: {}
+[12.392080] (c_teleop2) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[12.465480] (-) TimerEvent: {}
+[12.566432] (-) TimerEvent: {}
+[12.667160] (-) TimerEvent: {}
+[12.767860] (-) TimerEvent: {}
+[12.868660] (-) TimerEvent: {}
+[12.969388] (-) TimerEvent: {}
+[13.070070] (-) TimerEvent: {}
+[13.170921] (-) TimerEvent: {}
+[13.271874] (-) TimerEvent: {}
+[13.285318] (c_teleop2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[13.372009] (-) TimerEvent: {}
+[13.472758] (-) TimerEvent: {}
+[13.573532] (-) TimerEvent: {}
+[13.674201] (-) TimerEvent: {}
+[13.775209] (-) TimerEvent: {}
+[13.876508] (-) TimerEvent: {}
+[13.977815] (-) TimerEvent: {}
+[14.079141] (-) TimerEvent: {}
+[14.180353] (-) TimerEvent: {}
+[14.281502] (-) TimerEvent: {}
+[14.382707] (-) TimerEvent: {}
+[14.483916] (-) TimerEvent: {}
+[14.585046] (-) TimerEvent: {}
+[14.685810] (-) TimerEvent: {}
+[14.786505] (-) TimerEvent: {}
+[14.810345] (c_teleop2) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[14.886691] (-) TimerEvent: {}
+[14.987447] (-) TimerEvent: {}
+[15.088131] (-) TimerEvent: {}
+[15.188843] (-) TimerEvent: {}
+[15.269805] (c_teleop2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[15.289006] (-) TimerEvent: {}
+[15.377948] (c_teleop2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[15.389160] (-) TimerEvent: {}
+[15.489872] (-) TimerEvent: {}
+[15.513378] (c_teleop2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.590055] (-) TimerEvent: {}
+[15.660088] (c_teleop2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.690254] (-) TimerEvent: {}
+[15.790960] (-) TimerEvent: {}
+[15.891644] (-) TimerEvent: {}
+[15.992465] (-) TimerEvent: {}
+[16.093180] (-) TimerEvent: {}
+[16.193883] (-) TimerEvent: {}
+[16.294573] (-) TimerEvent: {}
+[16.395375] (-) TimerEvent: {}
+[16.496055] (-) TimerEvent: {}
+[16.509929] (c_teleop2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[16.540154] (c_teleop2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.596226] (-) TimerEvent: {}
+[16.697074] (-) TimerEvent: {}
+[16.797824] (-) TimerEvent: {}
+[16.898614] (-) TimerEvent: {}
+[16.999528] (-) TimerEvent: {}
+[17.100333] (-) TimerEvent: {}
+[17.201488] (-) TimerEvent: {}
+[17.302739] (-) TimerEvent: {}
+[17.403728] (-) TimerEvent: {}
+[17.504513] (-) TimerEvent: {}
+[17.605355] (-) TimerEvent: {}
+[17.645855] (c_teleop2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[17.705611] (-) TimerEvent: {}
+[17.806551] (-) TimerEvent: {}
+[17.907233] (-) TimerEvent: {}
+[18.007918] (-) TimerEvent: {}
+[18.056248] (c_teleop2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[18.108086] (-) TimerEvent: {}
+[18.208772] (-) TimerEvent: {}
+[18.309514] (-) TimerEvent: {}
+[18.410178] (-) TimerEvent: {}
+[18.511000] (-) TimerEvent: {}
+[18.519022] (c_teleop2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.611212] (-) TimerEvent: {}
+[18.711921] (-) TimerEvent: {}
+[18.812718] (-) TimerEvent: {}
+[18.913411] (-) TimerEvent: {}
+[19.014164] (-) TimerEvent: {}
+[19.114867] (-) TimerEvent: {}
+[19.215590] (-) TimerEvent: {}
+[19.316411] (-) TimerEvent: {}
+[19.330799] (c_teleop2) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[19.416596] (-) TimerEvent: {}
+[19.501332] (c_teleop2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[19.516816] (-) TimerEvent: {}
+[19.617592] (-) TimerEvent: {}
+[19.718283] (-) TimerEvent: {}
+[19.819146] (-) TimerEvent: {}
+[19.920315] (-) TimerEvent: {}
+[20.000722] (c_teleop2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[20.001432] (c_teleop2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maandres/bigus-igus/ws/src/c_teleop2/include>\n'}
+[20.001825] (c_teleop2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[20.007183] (c_teleop2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.015899] (c_teleop2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[20.016475] (c_teleop2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[20.020438] (-) TimerEvent: {}
+[20.025216] (c_teleop2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.036486] (c_teleop2) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.115004] (c_teleop2) StdoutLine: {'line': b'-- Generating done\n'}
+[20.120657] (-) TimerEvent: {}
+[20.122297] (c_teleop2) StdoutLine: {'line': b'-- Build files have been written to: /home/maandres/bigus-igus/ws/build/c_teleop2\n'}
+[20.160181] (c_teleop2) CommandEnded: {'returncode': 0}
+[20.162225] (c_teleop2) JobProgress: {'identifier': 'c_teleop2', 'progress': 'build'}
+[20.164563] (c_teleop2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maandres/bigus-igus/ws/build/c_teleop2', '--', '-j4', '-l4'], 'cwd': '/home/maandres/bigus-igus/ws/build/c_teleop2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'maandres'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/maandres'), ('OLDPWD', '/home/maandres/bigus-igus/ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'maandres'), ('WINDOWID', '48237013'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maandres-desktop:@/tmp/.ICE-unix/1234,unix/maandres-desktop:/tmp/.ICE-unix/1234'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/maandres/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/maandres'), ('AMENT_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install/py_pubsub:/home/maandres/bigus-igus/ws/install/c_teleop:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/maandres/bigus-igus/ws/build/c_teleop2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/maandres/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install/c_teleop:/home/maandres/bigus-igus/ws/install/py_pubsub:/opt/ros/iron'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[20.220971] (-) TimerEvent: {}
+[20.321941] (-) TimerEvent: {}
+[20.388949] (c_teleop2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[20.391169] (c_teleop2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[20.392340] (c_teleop2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o\x1b[0m\n'}
+[20.422228] (-) TimerEvent: {}
+[20.523668] (-) TimerEvent: {}
+[20.624942] (-) TimerEvent: {}
+[20.725834] (-) TimerEvent: {}
+[20.826937] (-) TimerEvent: {}
+[20.928198] (-) TimerEvent: {}
+[21.029504] (-) TimerEvent: {}
+[21.130589] (-) TimerEvent: {}
+[21.231776] (-) TimerEvent: {}
+[21.332757] (-) TimerEvent: {}
+[21.433980] (-) TimerEvent: {}
+[21.534870] (-) TimerEvent: {}
+[21.578901] (c_teleop2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable hello_world\x1b[0m\n'}
+[21.635083] (-) TimerEvent: {}
+[21.736664] (-) TimerEvent: {}
+[21.778807] (c_teleop2) StdoutLine: {'line': b'[ 66%] Built target hello_world\n'}
+[21.836954] (-) TimerEvent: {}
+[21.938172] (-) TimerEvent: {}
+[22.077660] (-) TimerEvent: {}
+[22.178424] (-) TimerEvent: {}
+[22.279344] (-) TimerEvent: {}
+[22.380395] (-) TimerEvent: {}
+[22.481814] (-) TimerEvent: {}
+[22.582746] (-) TimerEvent: {}
+[22.683633] (-) TimerEvent: {}
+[22.784770] (-) TimerEvent: {}
+[22.885974] (-) TimerEvent: {}
+[22.986736] (-) TimerEvent: {}
+[23.087411] (-) TimerEvent: {}
+[23.188203] (-) TimerEvent: {}
+[23.288963] (-) TimerEvent: {}
+[23.389787] (-) TimerEvent: {}
+[23.490539] (-) TimerEvent: {}
+[23.591600] (-) TimerEvent: {}
+[23.692769] (-) TimerEvent: {}
+[23.793596] (-) TimerEvent: {}
+[23.894605] (-) TimerEvent: {}
+[23.995954] (-) TimerEvent: {}
+[24.097357] (-) TimerEvent: {}
+[24.198662] (-) TimerEvent: {}
+[24.299837] (-) TimerEvent: {}
+[24.400814] (-) TimerEvent: {}
+[24.502076] (-) TimerEvent: {}
+[24.603248] (-) TimerEvent: {}
+[24.704103] (-) TimerEvent: {}
+[24.805058] (-) TimerEvent: {}
+[24.905863] (-) TimerEvent: {}
+[25.006884] (-) TimerEvent: {}
+[25.108045] (-) TimerEvent: {}
+[25.208945] (-) TimerEvent: {}
+[25.310243] (-) TimerEvent: {}
+[25.411472] (-) TimerEvent: {}
+[25.512395] (-) TimerEvent: {}
+[25.613631] (-) TimerEvent: {}
+[25.714824] (-) TimerEvent: {}
+[25.816178] (-) TimerEvent: {}
+[25.917744] (-) TimerEvent: {}
+[26.018964] (-) TimerEvent: {}
+[26.120249] (-) TimerEvent: {}
+[26.221517] (-) TimerEvent: {}
+[26.322341] (-) TimerEvent: {}
+[26.423224] (-) TimerEvent: {}
+[26.524638] (-) TimerEvent: {}
+[26.625552] (-) TimerEvent: {}
+[26.726351] (-) TimerEvent: {}
+[26.827132] (-) TimerEvent: {}
+[26.927981] (-) TimerEvent: {}
+[27.028873] (-) TimerEvent: {}
+[27.129877] (-) TimerEvent: {}
+[27.230862] (-) TimerEvent: {}
+[27.331736] (-) TimerEvent: {}
+[27.432596] (-) TimerEvent: {}
+[27.533603] (-) TimerEvent: {}
+[27.634629] (-) TimerEvent: {}
+[27.735583] (-) TimerEvent: {}
+[27.836400] (-) TimerEvent: {}
+[27.937487] (-) TimerEvent: {}
+[28.038523] (-) TimerEvent: {}
+[28.139376] (-) TimerEvent: {}
+[28.240300] (-) TimerEvent: {}
+[28.341384] (-) TimerEvent: {}
+[28.442372] (-) TimerEvent: {}
+[28.543338] (-) TimerEvent: {}
+[28.644263] (-) TimerEvent: {}
+[28.745283] (-) TimerEvent: {}
+[28.846208] (-) TimerEvent: {}
+[28.947436] (-) TimerEvent: {}
+[29.048489] (-) TimerEvent: {}
+[29.149620] (-) TimerEvent: {}
+[29.250523] (-) TimerEvent: {}
+[29.351411] (-) TimerEvent: {}
+[29.452326] (-) TimerEvent: {}
+[29.553254] (-) TimerEvent: {}
+[29.654138] (-) TimerEvent: {}
+[29.755169] (-) TimerEvent: {}
+[29.856336] (-) TimerEvent: {}
+[29.957349] (-) TimerEvent: {}
+[30.058361] (-) TimerEvent: {}
+[30.159607] (-) TimerEvent: {}
+[30.260814] (-) TimerEvent: {}
+[30.361701] (-) TimerEvent: {}
+[30.462565] (-) TimerEvent: {}
+[30.563442] (-) TimerEvent: {}
+[30.664333] (-) TimerEvent: {}
+[30.765308] (-) TimerEvent: {}
+[30.866154] (-) TimerEvent: {}
+[30.967043] (-) TimerEvent: {}
+[31.067941] (-) TimerEvent: {}
+[31.168809] (-) TimerEvent: {}
+[31.269662] (-) TimerEvent: {}
+[31.370629] (-) TimerEvent: {}
+[31.471526] (-) TimerEvent: {}
+[31.572434] (-) TimerEvent: {}
+[31.673477] (-) TimerEvent: {}
+[31.774674] (-) TimerEvent: {}
+[31.875560] (-) TimerEvent: {}
+[31.976598] (-) TimerEvent: {}
+[32.077585] (-) TimerEvent: {}
+[32.178609] (-) TimerEvent: {}
+[32.279640] (-) TimerEvent: {}
+[32.380542] (-) TimerEvent: {}
+[32.481443] (-) TimerEvent: {}
+[32.582319] (-) TimerEvent: {}
+[32.683254] (-) TimerEvent: {}
+[32.784184] (-) TimerEvent: {}
+[32.885073] (-) TimerEvent: {}
+[32.985957] (-) TimerEvent: {}
+[33.086868] (-) TimerEvent: {}
+[33.187820] (-) TimerEvent: {}
+[33.288831] (-) TimerEvent: {}
+[33.389732] (-) TimerEvent: {}
+[33.490631] (-) TimerEvent: {}
+[33.591625] (-) TimerEvent: {}
+[33.692541] (-) TimerEvent: {}
+[33.793526] (-) TimerEvent: {}
+[33.894597] (-) TimerEvent: {}
+[33.995789] (-) TimerEvent: {}
+[34.096812] (-) TimerEvent: {}
+[34.197712] (-) TimerEvent: {}
+[34.298611] (-) TimerEvent: {}
+[34.399490] (-) TimerEvent: {}
+[34.502126] (-) TimerEvent: {}
+[34.603056] (-) TimerEvent: {}
+[34.703950] (-) TimerEvent: {}
+[34.804937] (-) TimerEvent: {}
+[34.905840] (-) TimerEvent: {}
+[35.006719] (-) TimerEvent: {}
+[35.107621] (-) TimerEvent: {}
+[35.208557] (-) TimerEvent: {}
+[35.309471] (-) TimerEvent: {}
+[35.410371] (-) TimerEvent: {}
+[35.511339] (-) TimerEvent: {}
+[35.612519] (-) TimerEvent: {}
+[35.713474] (-) TimerEvent: {}
+[35.814336] (-) TimerEvent: {}
+[35.915205] (-) TimerEvent: {}
+[36.016078] (-) TimerEvent: {}
+[36.116960] (-) TimerEvent: {}
+[36.217834] (-) TimerEvent: {}
+[36.318716] (-) TimerEvent: {}
+[36.419641] (-) TimerEvent: {}
+[36.520494] (-) TimerEvent: {}
+[36.621406] (-) TimerEvent: {}
+[36.722316] (-) TimerEvent: {}
+[36.823325] (-) TimerEvent: {}
+[36.924194] (-) TimerEvent: {}
+[37.025089] (-) TimerEvent: {}
+[37.125966] (-) TimerEvent: {}
+[37.226910] (-) TimerEvent: {}
+[37.327761] (-) TimerEvent: {}
+[37.428700] (-) TimerEvent: {}
+[37.529550] (-) TimerEvent: {}
+[37.630403] (-) TimerEvent: {}
+[37.731325] (-) TimerEvent: {}
+[37.832188] (-) TimerEvent: {}
+[37.933037] (-) TimerEvent: {}
+[38.033900] (-) TimerEvent: {}
+[38.134783] (-) TimerEvent: {}
+[38.235661] (-) TimerEvent: {}
+[38.336521] (-) TimerEvent: {}
+[38.437424] (-) TimerEvent: {}
+[38.538331] (-) TimerEvent: {}
+[38.639191] (-) TimerEvent: {}
+[38.740006] (-) TimerEvent: {}
+[38.840837] (-) TimerEvent: {}
+[38.941698] (-) TimerEvent: {}
+[39.042612] (-) TimerEvent: {}
+[39.143514] (-) TimerEvent: {}
+[39.244452] (-) TimerEvent: {}
+[39.345438] (-) TimerEvent: {}
+[39.446386] (-) TimerEvent: {}
+[39.547387] (-) TimerEvent: {}
+[39.648346] (-) TimerEvent: {}
+[39.749473] (-) TimerEvent: {}
+[39.850531] (-) TimerEvent: {}
+[39.951657] (-) TimerEvent: {}
+[40.052804] (-) TimerEvent: {}
+[40.153736] (-) TimerEvent: {}
+[40.254607] (-) TimerEvent: {}
+[40.355474] (-) TimerEvent: {}
+[40.456400] (-) TimerEvent: {}
+[40.557292] (-) TimerEvent: {}
+[40.658172] (-) TimerEvent: {}
+[40.759061] (-) TimerEvent: {}
+[40.859959] (-) TimerEvent: {}
+[40.960892] (-) TimerEvent: {}
+[41.061758] (-) TimerEvent: {}
+[41.162617] (-) TimerEvent: {}
+[41.263489] (-) TimerEvent: {}
+[41.364447] (-) TimerEvent: {}
+[41.465396] (-) TimerEvent: {}
+[41.566269] (-) TimerEvent: {}
+[41.667184] (-) TimerEvent: {}
+[41.768260] (-) TimerEvent: {}
+[41.869636] (-) TimerEvent: {}
+[41.970603] (-) TimerEvent: {}
+[42.071508] (-) TimerEvent: {}
+[42.172473] (-) TimerEvent: {}
+[42.273787] (-) TimerEvent: {}
+[42.374741] (-) TimerEvent: {}
+[42.475827] (-) TimerEvent: {}
+[42.576741] (-) TimerEvent: {}
+[42.677678] (-) TimerEvent: {}
+[42.778651] (-) TimerEvent: {}
+[42.879609] (-) TimerEvent: {}
+[42.980475] (-) TimerEvent: {}
+[43.081423] (-) TimerEvent: {}
+[43.182345] (-) TimerEvent: {}
+[43.283224] (-) TimerEvent: {}
+[43.384085] (-) TimerEvent: {}
+[43.484961] (-) TimerEvent: {}
+[43.585945] (-) TimerEvent: {}
+[43.686812] (-) TimerEvent: {}
+[43.787680] (-) TimerEvent: {}
+[43.888642] (-) TimerEvent: {}
+[43.989611] (-) TimerEvent: {}
+[44.090456] (-) TimerEvent: {}
+[44.191322] (-) TimerEvent: {}
+[44.292191] (-) TimerEvent: {}
+[44.393150] (-) TimerEvent: {}
+[44.494014] (-) TimerEvent: {}
+[44.594876] (-) TimerEvent: {}
+[44.695726] (-) TimerEvent: {}
+[44.796589] (-) TimerEvent: {}
+[44.897454] (-) TimerEvent: {}
+[44.998289] (-) TimerEvent: {}
+[45.099110] (-) TimerEvent: {}
+[45.199974] (-) TimerEvent: {}
+[45.301028] (-) TimerEvent: {}
+[45.402038] (-) TimerEvent: {}
+[45.502846] (-) TimerEvent: {}
+[45.603734] (-) TimerEvent: {}
+[45.704988] (-) TimerEvent: {}
+[45.805759] (-) TimerEvent: {}
+[45.906540] (-) TimerEvent: {}
+[46.007349] (-) TimerEvent: {}
+[46.108257] (-) TimerEvent: {}
+[46.209367] (-) TimerEvent: {}
+[46.310495] (-) TimerEvent: {}
+[46.324136] (c_teleop2) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[46.410758] (-) TimerEvent: {}
+[46.512217] (-) TimerEvent: {}
+[46.613447] (-) TimerEvent: {}
+[46.714943] (-) TimerEvent: {}
+[46.816141] (-) TimerEvent: {}
+[46.917148] (-) TimerEvent: {}
+[47.017931] (-) TimerEvent: {}
+[47.119103] (-) TimerEvent: {}
+[47.220802] (-) TimerEvent: {}
+[47.321605] (-) TimerEvent: {}
+[47.422628] (-) TimerEvent: {}
+[47.523688] (-) TimerEvent: {}
+[47.628787] (-) TimerEvent: {}
+[47.729666] (-) TimerEvent: {}
+[47.830726] (-) TimerEvent: {}
+[47.931497] (-) TimerEvent: {}
+[48.032261] (-) TimerEvent: {}
+[48.133097] (-) TimerEvent: {}
+[48.234241] (-) TimerEvent: {}
+[48.335701] (-) TimerEvent: {}
+[48.436581] (-) TimerEvent: {}
+[48.537436] (-) TimerEvent: {}
+[48.638409] (-) TimerEvent: {}
+[48.678774] (c_teleop2) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[48.738604] (-) TimerEvent: {}
+[48.839409] (-) TimerEvent: {}
+[48.940243] (-) TimerEvent: {}
+[49.041047] (-) TimerEvent: {}
+[49.141785] (-) TimerEvent: {}
+[49.242552] (-) TimerEvent: {}
+[49.343329] (-) TimerEvent: {}
+[49.444090] (-) TimerEvent: {}
+[49.544869] (-) TimerEvent: {}
+[49.645611] (-) TimerEvent: {}
+[49.746396] (-) TimerEvent: {}
+[49.847140] (-) TimerEvent: {}
+[49.947915] (-) TimerEvent: {}
+[50.048729] (-) TimerEvent: {}
+[50.149474] (-) TimerEvent: {}
+[50.250227] (-) TimerEvent: {}
+[50.351031] (-) TimerEvent: {}
+[50.451803] (-) TimerEvent: {}
+[50.552560] (-) TimerEvent: {}
+[50.653366] (-) TimerEvent: {}
+[50.754129] (-) TimerEvent: {}
+[50.854894] (-) TimerEvent: {}
+[50.955650] (-) TimerEvent: {}
+[51.056415] (-) TimerEvent: {}
+[51.157227] (-) TimerEvent: {}
+[51.257961] (-) TimerEvent: {}
+[51.358765] (-) TimerEvent: {}
+[51.459543] (-) TimerEvent: {}
+[51.560291] (-) TimerEvent: {}
+[51.661086] (-) TimerEvent: {}
+[51.761837] (-) TimerEvent: {}
+[51.862589] (-) TimerEvent: {}
+[51.963310] (-) TimerEvent: {}
+[52.064078] (-) TimerEvent: {}
+[52.164830] (-) TimerEvent: {}
+[52.265546] (-) TimerEvent: {}
+[52.366301] (-) TimerEvent: {}
+[52.467099] (-) TimerEvent: {}
+[52.567841] (-) TimerEvent: {}
+[52.668585] (-) TimerEvent: {}
+[52.769395] (-) TimerEvent: {}
+[52.870153] (-) TimerEvent: {}
+[52.970918] (-) TimerEvent: {}
+[53.071731] (-) TimerEvent: {}
+[53.172473] (-) TimerEvent: {}
+[53.273261] (-) TimerEvent: {}
+[53.374028] (-) TimerEvent: {}
+[53.474780] (-) TimerEvent: {}
+[53.575567] (-) TimerEvent: {}
+[53.676325] (-) TimerEvent: {}
+[53.777115] (-) TimerEvent: {}
+[53.877875] (-) TimerEvent: {}
+[53.978621] (-) TimerEvent: {}
+[54.079429] (-) TimerEvent: {}
+[54.180160] (-) TimerEvent: {}
+[54.280954] (-) TimerEvent: {}
+[54.381679] (-) TimerEvent: {}
+[54.482431] (-) TimerEvent: {}
+[54.583173] (-) TimerEvent: {}
+[54.683937] (-) TimerEvent: {}
+[54.784731] (-) TimerEvent: {}
+[54.885446] (-) TimerEvent: {}
+[54.986214] (-) TimerEvent: {}
+[55.086956] (-) TimerEvent: {}
+[55.187758] (-) TimerEvent: {}
+[55.288505] (-) TimerEvent: {}
+[55.389269] (-) TimerEvent: {}
+[55.490031] (-) TimerEvent: {}
+[55.590889] (-) TimerEvent: {}
+[55.691987] (-) TimerEvent: {}
+[55.792967] (-) TimerEvent: {}
+[55.893815] (-) TimerEvent: {}
+[55.994590] (-) TimerEvent: {}
+[56.095418] (-) TimerEvent: {}
+[56.196206] (-) TimerEvent: {}
+[56.297054] (-) TimerEvent: {}
+[56.397811] (-) TimerEvent: {}
+[56.498596] (-) TimerEvent: {}
+[56.599422] (-) TimerEvent: {}
+[56.700202] (-) TimerEvent: {}
+[56.801038] (-) TimerEvent: {}
+[56.901794] (-) TimerEvent: {}
+[57.002538] (-) TimerEvent: {}
+[57.103608] (-) TimerEvent: {}
+[57.204560] (-) TimerEvent: {}
+[57.305468] (-) TimerEvent: {}
+[57.406452] (-) TimerEvent: {}
+[57.507830] (-) TimerEvent: {}
+[57.608839] (-) TimerEvent: {}
+[57.615061] (c_teleop2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[57.709151] (-) TimerEvent: {}
+[57.810386] (-) TimerEvent: {}
+[57.911365] (-) TimerEvent: {}
+[58.012691] (-) TimerEvent: {}
+[58.113559] (-) TimerEvent: {}
+[58.214804] (-) TimerEvent: {}
+[58.315780] (-) TimerEvent: {}
+[58.416779] (-) TimerEvent: {}
+[58.517686] (-) TimerEvent: {}
+[58.618497] (-) TimerEvent: {}
+[58.719292] (-) TimerEvent: {}
+[58.820395] (-) TimerEvent: {}
+[58.921596] (-) TimerEvent: {}
+[59.022692] (-) TimerEvent: {}
+[59.123449] (-) TimerEvent: {}
+[59.224175] (-) TimerEvent: {}
+[59.313096] (c_teleop2) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[59.324448] (-) TimerEvent: {}
+[59.352190] (c_teleop2) CommandEnded: {'returncode': 0}
+[59.424656] (-) TimerEvent: {}
+[59.523846] (c_teleop2) JobProgress: {'identifier': 'c_teleop2', 'progress': 'install'}
+[59.526651] (-) TimerEvent: {}
+[59.561536] (c_teleop2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maandres/bigus-igus/ws/build/c_teleop2'], 'cwd': '/home/maandres/bigus-igus/ws/build/c_teleop2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'maandres'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/maandres'), ('OLDPWD', '/home/maandres/bigus-igus/ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'maandres'), ('WINDOWID', '48237013'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maandres-desktop:@/tmp/.ICE-unix/1234,unix/maandres-desktop:/tmp/.ICE-unix/1234'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/maandres/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/maandres'), ('AMENT_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install/py_pubsub:/home/maandres/bigus-igus/ws/install/c_teleop:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/maandres/bigus-igus/ws/build/c_teleop2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/maandres/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maandres/bigus-igus/ws/install/c_teleop:/home/maandres/bigus-igus/ws/install/py_pubsub:/opt/ros/iron'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[59.587158] (c_teleop2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[59.587908] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/lib/c_teleop2/talker\n'}
+[59.597354] (c_teleop2) StdoutLine: {'line': b'-- Set runtime path of "/home/maandres/bigus-igus/ws/install/c_teleop2/lib/c_teleop2/talker" to ""\n'}
+[59.598372] (c_teleop2) StdoutLine: {'line': b'-- Up-to-date: /home/maandres/bigus-igus/ws/install/c_teleop2/lib/c_teleop2/talker\n'}
+[59.599613] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/lib/c_teleop2/listener\n'}
+[59.626828] (-) TimerEvent: {}
+[59.631218] (c_teleop2) StdoutLine: {'line': b'-- Set runtime path of "/home/maandres/bigus-igus/ws/install/c_teleop2/lib/c_teleop2/listener" to ""\n'}
+[59.631821] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/lib/c_teleop2/hello_world\n'}
+[59.633330] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/ament_index/resource_index/package_run_dependencies/c_teleop2\n'}
+[59.634846] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/ament_index/resource_index/parent_prefix_path/c_teleop2\n'}
+[59.636323] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/environment/ament_prefix_path.sh\n'}
+[59.637430] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/environment/ament_prefix_path.dsv\n'}
+[59.638800] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/environment/path.sh\n'}
+[59.639878] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/environment/path.dsv\n'}
+[59.641002] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/local_setup.bash\n'}
+[59.642039] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/local_setup.sh\n'}
+[59.643092] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/local_setup.zsh\n'}
+[59.644121] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/local_setup.dsv\n'}
+[59.645303] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/package.dsv\n'}
+[59.646688] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/ament_index/resource_index/packages/c_teleop2\n'}
+[59.647959] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/cmake/c_teleop2Config.cmake\n'}
+[59.648891] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/cmake/c_teleop2Config-version.cmake\n'}
+[59.649951] (c_teleop2) StdoutLine: {'line': b'-- Installing: /home/maandres/bigus-igus/ws/install/c_teleop2/share/c_teleop2/package.xml\n'}
+[59.656158] (c_teleop2) CommandEnded: {'returncode': 0}
+[59.726989] (-) TimerEvent: {}
+[59.827851] (-) TimerEvent: {}
+[59.928536] (-) TimerEvent: {}
+[60.029379] (-) TimerEvent: {}
+[60.130180] (-) TimerEvent: {}
+[60.231282] (-) TimerEvent: {}
+[60.332398] (-) TimerEvent: {}
+[60.371172] (c_teleop2) JobEnded: {'identifier': 'c_teleop2', 'rc': 0}
+[60.373585] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.001549] (c_teleop) JobQueued: {'identifier': 'c_teleop', 'dependencies': OrderedDict([('c_teleop', '/home/maandres/bigus-igus/ws/install/c_teleop')])}
+[0.001768] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict([('py_pubsub', '/home/maandres/bigus-igus/ws/install/py_pubsub')])}
+[0.002115] (c_teleop) JobStarted: {'identifier': 'c_teleop'}
+[0.089747] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099133] (-) TimerEvent: {}
+[0.188730] (c_teleop) JobEnded: {'identifier': 'c_teleop', 'rc': 1}
+[0.193128] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 1}
+[0.199260] (-) TimerEvent: {}
+[0.205116] (-) EventReactorShutdown: {}

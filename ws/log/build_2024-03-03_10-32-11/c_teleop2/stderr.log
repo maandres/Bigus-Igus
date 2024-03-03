@@ -1,0 +1,8 @@
+[01m[K/home/maandres/bigus-igus/ws/src/c_teleop2/src/teleop_turtle_key.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+    1 | #include [01;31m[K<ros/ros.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/teleop.dir/build.make:76: CMakeFiles/teleop.dir/src/teleop_turtle_key.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/teleop.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

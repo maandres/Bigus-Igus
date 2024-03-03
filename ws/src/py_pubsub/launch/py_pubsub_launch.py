@@ -6,14 +6,6 @@ def generate_launch_description():
         Node(
             package='py_pubsub',
             namespace='namespace_1',
-            executable='talker',
-            name='talker_move',
-            output="screen",
-            emulate_tty=True,
-        ),
-        Node(
-            package='py_pubsub',
-            namespace='namespace_1',
             executable='listener',
             name='mov_vel_010',
             output="screen",
@@ -32,5 +24,49 @@ def generate_launch_description():
             parameters=[
                 {'board_id': '020'}
             ]
-        )
+        ),
+        Node(
+            package='py_pubsub',
+            namespace='namespace_1',
+            executable='listener',
+            name='mov_vel_030',
+            output="screen",
+            emulate_tty=True,
+            parameters=[
+                {'board_id': '030'}
+            ]
+        ),
+        Node(
+            package='py_pubsub',
+            namespace='namespace_1',
+            executable='listener',
+            name='mov_vel_040',
+            output="screen",
+            emulate_tty=True,
+            parameters=[
+                {'board_id': '040'}
+            ]
+        ),
+        Node(
+            package='py_pubsub',
+            namespace='namespace_1',
+            executable='listener',
+            name='mov_vel_050',
+            output="screen",
+            emulate_tty=True,
+            parameters=[
+                {'board_id': '050'}
+            ]
+        ),
+        Node(
+            package='py_pubsub',
+            namespace='namespace_1',
+            executable='listener',
+            name='mov_vel_060',
+            output="screen",
+            emulate_tty=True,
+            parameters=[
+                {'board_id': '060'}
+            ]
+        ),
     ])

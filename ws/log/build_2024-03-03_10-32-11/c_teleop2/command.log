@@ -1,0 +1,2 @@
+Invoking command in '/home/maandres/bigus-igus/ws/build/c_teleop2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maandres/bigus-igus/ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/maandres/bigus-igus/ws/build/c_teleop2 -- -j4 -l4
+Invoked command in '/home/maandres/bigus-igus/ws/build/c_teleop2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maandres/bigus-igus/ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/maandres/bigus-igus/ws/build/c_teleop2 -- -j4 -l4
