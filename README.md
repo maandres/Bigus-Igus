@@ -9,9 +9,21 @@ Learn the basics of robotics and create a simple and funcitonal aplication
 
 ### Install (Linux)
 Create workspace
+```
+TODO
+```
 Go to source directory
+```
+TODO
+```
 Clone repo
+```
+TODO
+```
 Go back to workspace
+```
+TODO
+```
 Source the underlying ros environment
 ```
 source /opt/ros/install/setup.bash
