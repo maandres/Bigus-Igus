@@ -7,11 +7,15 @@ Learn the basics of robotics and create a simple and funcitonal aplication
 
 ## Demo
 
-### Install
-Build workspace
+### Install (Linux)
+Create workspace
 Go to source directory
 Clone repo
 Go back to workspace
+Source the underlying ros environment
+```
+source /opt/ros/install/setup.bash
+```
 Install dependendencies
 ```
 rosdep install -i --from-path src --rosdistro iron -y
@@ -22,6 +26,10 @@ colcon build --packages-select py_pusbub teleop_twist_keyboard
 ```
 
 ### Launch motor nodes
+Open new terminal and source the outerlayer environment
+```
+source <work_space_created>/install/local_setup.bash
+```
 Launch de py_pubsub launch file
 ```
 ros2 launch py_pubsub py_pubsub_launch.py
