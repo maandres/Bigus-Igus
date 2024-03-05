@@ -75,6 +75,11 @@ e/c : increase/decrease only angular speed by 10%
 CTRL-C to quit
 """
 
+# Add default values to the parameters of the node
+default_parameters = {
+    'can_port' : 'can1',
+    }
+      
 # keypress down : ( motor id, hourly direction)
 moveBindings = {
     'w': ('010', True),              # -- CHANGED
@@ -133,15 +138,15 @@ def vels(speed, turn):
     return 'currently:\tspeed %s\tturn %s ' % (speed, turn)
 
 
-def stop_all_motors():
+def stop_all_motors(can_port):
     for i in range(1,6):
-        print('cansend can0 0' + str(i) + '0#01.0A')
-        os.system('cansend can0 0' + str(i) + '0#01.0A')
+        print('cansend ' + can_port + ' 0' + str(i) + '0#01.0A')
+        os.system('cansend ' + can_port + ' 0' + str(i) + '0#01.0A')
 
-def enable_reset_motor(motor, order):
+def enable_reset_motor(motor, order, can_port):
     time.sleep(0.2)
-    #print('cansend can0 ' + motor + order)
-    os.system('cansend can0 ' + motor + order)
+    #print('cansend ' + can_interface + ' ' + motor + order)
+    os.system('cansend ' + can_port + ' ' + motor + order)
 
 def main():
     settings = saveTerminalSettings()
@@ -149,6 +154,16 @@ def main():
     rclpy.init()
 
     node = rclpy.create_node('teleop_twist_keyboard')
+
+
+    # Inicialitzem parametres ( i aportem default value si no s'h introduït via launch o altre mètodes)
+    from rcl_interfaces.msg import ParameterDescriptor
+       
+    # Declare parameter and then store it's value in a variable
+    can_interface_descriptor = ParameterDescriptor(description="Direcció d'interfaç can (tant pot ser can0 com can1)")
+    can_port = node.declare_parameter('can_port', default_parameters['can_port'], can_interface_descriptor)
+    can_port = can_port.get_parameter_value().string_value
+
 
     # parameters
     stamped = node.declare_parameter('stamped', False).value
@@ -199,7 +214,7 @@ def main():
             print("Has presionat la tecla ["+key+"]")  # -- ADDED                      
             
             if key in moveBindings.keys() and moveBindings[key][0] == '000':
-                stop_all_motors()
+                stop_all_motors(can_port)
             elif key in moveBindings.keys():             # -- CHANED
                 msgg = String()
                 msgg.data = velocity[0] if moveBindings[key][1] == True else velocity[1]
@@ -217,8 +232,8 @@ def main():
                 elif moveBindings[key][0] == '060':     
                     pub6.publish(msgg)
                     
-                enable_reset_motor(moveBindings[key][0],'#01.06')
-                enable_reset_motor(moveBindings[key][0],'#01.09')
+                enable_reset_motor(moveBindings[key][0],'#01.06', can_port)
+                enable_reset_motor(moveBindings[key][0],'#01.09', can_port)
                 
             elif key in speedBindings.keys():   # -- CHANGED
                 velocity = speedBindings[key]
@@ -239,7 +254,7 @@ def main():
                 #th = 0.0
                 if (key == '\x03'):
                     # Disable all motors              #  -- ADDED
-                    stop_all_motors()
+                    stop_all_motors(can_port)
                     break
 
             if stamped:

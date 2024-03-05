@@ -44,7 +44,7 @@ rosdep install -i --from-path src --rosdistro iron -y
 ```
 Build packages
 ```
-colcon build --packages-select py_pusbub teleop_twist_keyboard
+colcon build --packages-select py_pubsub teleop_twist_keyboard
 ```
 
 ### Launch motor nodes
@@ -60,8 +60,10 @@ ros2 launch py_pubsub py_pubsub_launch.py
 ### Run and test the keyboard control
 Run
 ```
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/namespace_1
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+*  --ros-args -r __ns:=/namespace_1
+
 Teleoperate the robot using the keyboards:
  * Direction (WASD CV IJKL PÑ)
  * Velocity (123456789; from slowest to fastest; logarithmic curve)

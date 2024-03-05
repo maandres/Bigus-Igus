@@ -66,7 +66,7 @@ class MinimalSubscriber(Node):
             self.destroy_timer(timer)
            
         self.i = 0
-        
+        self.moviment = str(msg.data)
         #Guardem la dada en un atribut que perduri en el temps (msg.data es perd)
         #Creem el nou timer
         #Documentació timer https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/timer.py
