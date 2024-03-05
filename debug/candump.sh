@@ -9,4 +9,4 @@ sudo ifconfig can0 txqueuelen 65536
 sudo ifconfig can1 txqueuelen 65536
 
 #Dump can0 data on terminal 
-candump can0
+candump any

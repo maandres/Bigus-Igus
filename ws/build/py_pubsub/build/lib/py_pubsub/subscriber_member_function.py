@@ -21,6 +21,11 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 
+default_parameters = {
+    'motor_id' : '010',
+    'can_port' : 'can1',
+    }
+
 
 class MinimalSubscriber(Node):
 
@@ -28,17 +33,22 @@ class MinimalSubscriber(Node):
         super().__init__('minimal_subscriber')
         
         
-        # Aquesta declaració és obligatoria per inicia parametre, encara que usem launchfile per assignar valors als parametres
+        # Inicialitzem parametres ( i aportem default value si no s'h introduït via launch o altre mètodes)
         from rcl_interfaces.msg import ParameterDescriptor
+        
         my_parameter_descriptor = ParameterDescriptor(description='Id de la controladora a la qual es dirigeix el node')
-        self.declare_parameter('board_id', '010', my_parameter_descriptor)
+        self.declare_parameter('board_id', default_parameters['motor_id'], my_parameter_descriptor)
+
+        can_interface_descriptor = ParameterDescriptor(description="Direcció d'interfaç can (tant pot ser can0 com can1)")
+        self.declare_parameter('can_port', default_parameters['can_port'], can_interface_descriptor)
         # ------
         
+        #Obtenim la id del node a partir del parametre
         self.board_id=self.get_parameter('board_id').get_parameter_value().string_value
         
         self.subscription = self.create_subscription(
             String,
-            'mov_vel_'+self.board_id,
+            '/mov_vel_'+self.board_id,
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
@@ -58,8 +68,6 @@ class MinimalSubscriber(Node):
         self.i = 0
         
         #Guardem la dada en un atribut que perduri en el temps (msg.data es perd)
-        self.moviment = msg.data
-        
         #Creem el nou timer
         #Documentació timer https://github.com/ros2/rclpy/blob/rolling/rclpy/rclpy/timer.py
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -67,6 +75,10 @@ class MinimalSubscriber(Node):
 
     def timer_callback(self):
         """Crida iterada de moviment de robot"""
+        
+        #Obtenim la interfaç de can a partir del parametre
+        can_port = self.get_parameter('can_port').get_parameter_value().string_value
+        
         msg = String()
         msg.data = 'Motor ' + self.board_id + ' executa iterativament velocitat de ' + self.moviment 
         self.get_logger().info('Publicant: "%s"' % msg.data)
@@ -75,7 +87,7 @@ class MinimalSubscriber(Node):
         #Enviem el missatge al robot
         #https://unix.stackexchange.com/questions/238180/execute-shell-commands-in-python
         
-        os.system('cansend can0 '+ self.board_id + '#25.' + self.moviment + '.10')
+        os.system('cansend ' + can_port + ' '+ self.board_id + '#25.' + self.moviment + '.10')
 
 
 def main(args=None):

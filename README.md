@@ -7,6 +7,16 @@ Learn the basics of robotics and create a simple and funcitonal aplication
 
 ## Demo
 
+### Enable CAN interface
+Make executable the script file
+```
+sudo chmod +x repo/debug/candump.sh
+```
+Execute the file
+```
+. repo/debug/candump.sh
+```
+
 ### Install (Linux)
 Create workspace
 ```
