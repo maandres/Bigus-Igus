@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001624] (-) JobUnselected: {'identifier': 'c_teleop'}
+[0.001955] (-) JobUnselected: {'identifier': 'c_teleop2'}
+[0.002089] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002312] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002863] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.003309] (-) EventReactorShutdown: {}

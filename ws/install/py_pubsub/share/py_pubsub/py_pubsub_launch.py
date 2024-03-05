@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='py_pubsub',
-            namespace='namespace_1',
+            #namespace='namespace_1',
             executable='listener',
             name='mov_vel_010',
             output="screen",
@@ -16,7 +16,7 @@ def generate_launch_description():
         ),
         Node(
             package='py_pubsub',
-	        namespace='namespace_1',
+	        #namespace='namespace_1',
             executable='listener',
             name='mov_vel_020',
             output="screen",
@@ -27,7 +27,7 @@ def generate_launch_description():
         ),
         Node(
             package='py_pubsub',
-            namespace='namespace_1',
+            #namespace='namespace_1',
             executable='listener',
             name='mov_vel_030',
             output="screen",
@@ -38,7 +38,7 @@ def generate_launch_description():
         ),
         Node(
             package='py_pubsub',
-            namespace='namespace_1',
+            #namespace='namespace_1',
             executable='listener',
             name='mov_vel_040',
             output="screen",
@@ -49,7 +49,7 @@ def generate_launch_description():
         ),
         Node(
             package='py_pubsub',
-            namespace='namespace_1',
+            #namespace='namespace_1',
             executable='listener',
             name='mov_vel_050',
             output="screen",
@@ -60,7 +60,7 @@ def generate_launch_description():
         ),
         Node(
             package='py_pubsub',
-            namespace='namespace_1',
+            #namespace='namespace_1',
             executable='listener',
             name='mov_vel_060',
             output="screen",

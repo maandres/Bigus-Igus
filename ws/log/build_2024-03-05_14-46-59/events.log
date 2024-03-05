@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.001501] (-) JobUnselected: {'identifier': 'c_teleop'}
+[0.002080] (-) JobUnselected: {'identifier': 'c_teleop2'}
+[0.002170] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002249] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002332] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.002780] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.098758] (-) TimerEvent: {}
+[0.199802] (-) TimerEvent: {}
+[0.300777] (-) TimerEvent: {}
+[0.401830] (-) TimerEvent: {}
+[0.502610] (-) TimerEvent: {}
+[0.603310] (-) TimerEvent: {}
+[0.703988] (-) TimerEvent: {}
+[0.804608] (-) TimerEvent: {}
+[0.905230] (-) TimerEvent: {}
+[1.005862] (-) TimerEvent: {}
+[1.106539] (-) TimerEvent: {}
+[1.207132] (-) TimerEvent: {}
+[1.307785] (-) TimerEvent: {}
+[1.408392] (-) TimerEvent: {}
+[1.509212] (-) TimerEvent: {}
+[1.610351] (-) TimerEvent: {}
+[1.711489] (-) TimerEvent: {}
+[1.812616] (-) TimerEvent: {}
+[1.913457] (-) TimerEvent: {}
+[2.014444] (-) TimerEvent: {}
+[2.116012] (-) TimerEvent: {}
+[2.216650] (-) TimerEvent: {}
+[2.317266] (-) TimerEvent: {}
+[2.417951] (-) TimerEvent: {}
+[2.518553] (-) TimerEvent: {}
+[2.619173] (-) TimerEvent: {}
+[2.719822] (-) TimerEvent: {}
+[2.820452] (-) TimerEvent: {}
+[2.921053] (-) TimerEvent: {}
+[3.021675] (-) TimerEvent: {}
+[3.122349] (-) TimerEvent: {}
+[3.223110] (-) TimerEvent: {}
+[3.323883] (-) TimerEvent: {}
+[3.372865] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/maandres/bigus-igus/ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'maandres', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/maandres', 'OLDPWD': '/home/maandres/bigus-igus', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'maandres', 'WINDOWID': '52430631', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/maandres-desktop:@/tmp/.ICE-unix/1184,unix/maandres-desktop:/tmp/.ICE-unix/1184', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/maandres/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/maandres', 'AMENT_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard:/home/maandres/bigus-igus/ws/install/py_pubsub:/home/maandres/bigus-igus/ws/install/c_teleop2:/home/maandres/bigus-igus/ws/install/c_teleop:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/maandres/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/prefix_override:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/maandres/bigus-igus/ws/install/c_teleop2:/home/maandres/bigus-igus/ws/install/c_teleop', 'QT_FONT_DPI': '96'}, 'shell': False}
+[3.424033] (-) TimerEvent: {}
+[3.524686] (-) TimerEvent: {}
+[3.625503] (-) TimerEvent: {}
+[3.726257] (-) TimerEvent: {}
+[3.826900] (-) TimerEvent: {}
+[3.927604] (-) TimerEvent: {}
+[4.028299] (-) TimerEvent: {}
+[4.128902] (-) TimerEvent: {}
+[4.229543] (-) TimerEvent: {}
+[4.330185] (-) TimerEvent: {}
+[4.430835] (-) TimerEvent: {}
+[4.477202] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[4.480121] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[4.481434] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[4.483447] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[4.484321] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[4.484993] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[4.491645] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[4.496122] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[4.496789] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[4.497443] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[4.498221] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build/lib\n'}
+[4.498935] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[4.499470] (teleop_twist_keyboard) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.499984] (teleop_twist_keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.500466] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[4.503335] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/maandres/bigus-igus/ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/maandres/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[4.506193] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[4.508447] (teleop_twist_keyboard) StderrLine: {'line': b"error: can't copy 'resource/teleop_twist_keyboard': doesn't exist or not a regular file\n"}
+[4.531211] (-) TimerEvent: {}
+[4.611051] (teleop_twist_keyboard) CommandEnded: {'returncode': 1}
+[4.612398] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 1}
+[4.622907] (-) EventReactorShutdown: {}

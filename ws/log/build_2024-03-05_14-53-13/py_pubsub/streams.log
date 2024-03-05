@@ -1,0 +1,28 @@
+[3.950s] Invoking command in '/home/maandres/bigus-igus/ws/src/py_pubsub': PYTHONPATH=/home/maandres/bigus-igus/ws/build/py_pubsub/prefix_override:/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/maandres/bigus-igus/ws/build/py_pubsub/build install --record /home/maandres/bigus-igus/ws/build/py_pubsub/install.log --single-version-externally-managed
+[5.134s] running egg_info
+[5.137s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.139s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.140s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.140s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.141s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[5.150s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.151s] adding license file 'LICENSE'
+[5.154s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.154s] running build
+[5.155s] running build_py
+[5.155s] copying py_pubsub/subscriber_member_function.py -> /home/maandres/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub
+[5.157s] running install
+[5.158s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.158s]   warnings.warn(
+[5.159s] running install_lib
+[5.163s] copying /home/maandres/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.166s] byte-compiling /home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[5.172s] running install_data
+[5.173s] running install_egg_info
+[5.180s] removing '/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[5.182s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[5.187s] running install_scripts
+[5.273s] Installing listener script to /home/maandres/bigus-igus/ws/install/py_pubsub/lib/py_pubsub
+[5.274s] Installing talker script to /home/maandres/bigus-igus/ws/install/py_pubsub/lib/py_pubsub
+[5.276s] writing list of installed files to '/home/maandres/bigus-igus/ws/build/py_pubsub/install.log'
+[5.403s] Invoked command in '/home/maandres/bigus-igus/ws/src/py_pubsub' returned '0': PYTHONPATH=/home/maandres/bigus-igus/ws/build/py_pubsub/prefix_override:/home/maandres/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/maandres/bigus-igus/ws/build/py_pubsub/build install --record /home/maandres/bigus-igus/ws/build/py_pubsub/install.log --single-version-externally-managed
