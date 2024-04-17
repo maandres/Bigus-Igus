@@ -77,7 +77,7 @@ CTRL-C to quit
 
 # Add default values to the parameters of the node
 default_parameters = {
-    'can_port' : 'can1',
+    'can_port' : 'can0',
     }
       
 # keypress down : ( motor id, hourly direction)
@@ -139,7 +139,7 @@ def vels(speed, turn):
 
 
 def stop_all_motors(can_port):
-    for i in range(1,6):
+    for i in range(1,7):
         print('cansend ' + can_port + ' 0' + str(i) + '0#01.0A')
         os.system('cansend ' + can_port + ' 0' + str(i) + '0#01.0A')
 

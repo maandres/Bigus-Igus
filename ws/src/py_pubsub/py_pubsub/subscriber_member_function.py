@@ -23,7 +23,7 @@ from std_msgs.msg import String
 
 default_parameters = {
     'motor_id' : '010',
-    'can_port' : 'can1',
+    'can_port' : 'can0',
     }
 
 

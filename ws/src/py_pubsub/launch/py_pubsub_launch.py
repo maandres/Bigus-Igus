@@ -1,6 +1,11 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
+
+#Proba de portar arguments
+from launch.substitutions import LaunchConfiguration
+from launch.actions import DeclareLaunchArgument
+
 def generate_launch_description():
     return LaunchDescription([
         Node(
@@ -11,7 +16,8 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {'board_id': '010'}
+                {'board_id': '010'},
+                {'can_port': LaunchConfiguration("can_port")}
             ]
         ),
         Node(
@@ -22,7 +28,8 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {'board_id': '020'}
+                {'board_id': '020'},
+                {'can_port': LaunchConfiguration("can_port")}
             ]
         ),
         Node(
@@ -33,7 +40,8 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {'board_id': '030'}
+                {'board_id': '030'},
+                {'can_port': LaunchConfiguration("can_port")}
             ]
         ),
         Node(
@@ -44,7 +52,8 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {'board_id': '040'}
+                {'board_id': '040'},
+                {'can_port': LaunchConfiguration("can_port")}
             ]
         ),
         Node(
@@ -55,7 +64,8 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {'board_id': '050'}
+                {'board_id': '050'},
+                {'can_port': LaunchConfiguration("can_port")}
             ]
         ),
         Node(
@@ -66,7 +76,14 @@ def generate_launch_description():
             output="screen",
             emulate_tty=True,
             parameters=[
-                {'board_id': '060'}
+                {'board_id': '060'},
+                {'can_port': LaunchConfiguration("can_port")}
             ]
         ),
+        DeclareLaunchArgument(
+        "can_port",
+        default_value="can0",
+        choices=["can0", "can1"],
+        description="Selected can port",
+    )
     ])

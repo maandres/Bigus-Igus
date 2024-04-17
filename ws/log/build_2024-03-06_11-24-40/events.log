@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.001716] (-) JobUnselected: {'identifier': 'c_teleop'}
+[0.002424] (-) JobUnselected: {'identifier': 'c_teleop2'}
+[0.002744] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003029] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003256] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.003613] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098733] (-) TimerEvent: {}
+[0.200153] (-) TimerEvent: {}
+[0.201477] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.300423] (-) TimerEvent: {}
+[0.402186] (-) TimerEvent: {}
+[0.503075] (-) TimerEvent: {}
+[0.603850] (-) TimerEvent: {}
+[0.704580] (-) TimerEvent: {}
+[0.805334] (-) TimerEvent: {}
+[0.906114] (-) TimerEvent: {}
+[1.006878] (-) TimerEvent: {}
+[1.107584] (-) TimerEvent: {}
+[1.208287] (-) TimerEvent: {}
+[1.309031] (-) TimerEvent: {}
+[1.409740] (-) TimerEvent: {}
+[1.510537] (-) TimerEvent: {}
+[1.611967] (-) TimerEvent: {}
+[1.713138] (-) TimerEvent: {}
+[1.814478] (-) TimerEvent: {}
+[1.917457] (-) TimerEvent: {}
+[2.018692] (-) TimerEvent: {}
+[2.119572] (-) TimerEvent: {}
+[2.220532] (-) TimerEvent: {}
+[2.321237] (-) TimerEvent: {}
+[2.422000] (-) TimerEvent: {}
+[2.522887] (-) TimerEvent: {}
+[2.623586] (-) TimerEvent: {}
+[2.724464] (-) TimerEvent: {}
+[2.825265] (-) TimerEvent: {}
+[2.926376] (-) TimerEvent: {}
+[3.028112] (-) TimerEvent: {}
+[3.129442] (-) TimerEvent: {}
+[3.233832] (-) TimerEvent: {}
+[3.337698] (-) TimerEvent: {}
+[3.442197] (-) TimerEvent: {}
+[3.545816] (-) TimerEvent: {}
+[3.650103] (-) TimerEvent: {}
+[3.751180] (-) TimerEvent: {}
+[3.857610] (-) TimerEvent: {}
+[3.963051] (-) TimerEvent: {}
+[4.066509] (-) TimerEvent: {}
+[4.168402] (-) TimerEvent: {}
+[4.272847] (-) TimerEvent: {}
+[4.376714] (-) TimerEvent: {}
+[4.480843] (-) TimerEvent: {}
+[4.585081] (-) TimerEvent: {}
+[4.687110] (-) TimerEvent: {}
+[4.818043] (-) TimerEvent: {}
+[4.878336] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/perry/bigus-igus/ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/perry/bigus-igus/ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/perry/bigus-igus/ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'perry', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'HOME': '/home/perry', 'OLDPWD': '/home/perry/bigus-igus', 'DESKTOP_SESSION': 'mate', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'LOGNAME': 'perry', 'WINDOWID': '56623110', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/perry-desktop:@/tmp/.ICE-unix/1273,unix/perry-desktop:/tmp/.ICE-unix/1273', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/perry/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/perry', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/perry/bigus-igus/ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/perry/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'es_ES.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96', 'PYTHONPATH': '/home/perry/bigus-igus/ws/build/teleop_twist_keyboard/prefix_override:/home/perry/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:'}, 'shell': False}
+[4.921957] (-) TimerEvent: {}
+[4.957317] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/perry/bigus-igus/ws/build/py_pubsub/build', 'install', '--record', '/home/perry/bigus-igus/ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/perry/bigus-igus/ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'perry', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'HOME': '/home/perry', 'OLDPWD': '/home/perry/bigus-igus', 'DESKTOP_SESSION': 'mate', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'LOGNAME': 'perry', 'WINDOWID': '56623110', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/perry-desktop:@/tmp/.ICE-unix/1273,unix/perry-desktop:/tmp/.ICE-unix/1273', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/perry/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/perry', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/perry/bigus-igus/ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/perry/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'es_ES.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96', 'PYTHONPATH': '/home/perry/bigus-igus/ws/build/py_pubsub/prefix_override:/home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages:'}, 'shell': False}
+[5.022528] (-) TimerEvent: {}
+[5.126355] (-) TimerEvent: {}
+[5.231577] (-) TimerEvent: {}
+[5.335387] (-) TimerEvent: {}
+[5.439608] (-) TimerEvent: {}
+[5.543707] (-) TimerEvent: {}
+[5.647538] (-) TimerEvent: {}
+[5.752473] (-) TimerEvent: {}
+[5.856383] (-) TimerEvent: {}
+[5.960050] (-) TimerEvent: {}
+[6.064543] (-) TimerEvent: {}
+[6.165905] (-) TimerEvent: {}
+[6.196351] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[6.201768] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[6.211050] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[6.215414] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[6.219862] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[6.224421] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[6.252505] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.307350] (-) TimerEvent: {}
+[6.354000] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.407780] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.412118] (-) TimerEvent: {}
+[6.418483] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[6.419336] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[6.420009] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/perry/bigus-igus/ws/build/teleop_twist_keyboard/build/lib\n'}
+[6.420511] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[6.420951] (teleop_twist_keyboard) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.421503] (teleop_twist_keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.422016] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[6.422442] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/perry/bigus-igus/ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/perry/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[6.422879] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/perry/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[6.423301] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[6.423859] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.424262] (teleop_twist_keyboard) StdoutLine: {'line': b"removing '/home/perry/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info' (and everything under it)\n"}
+[6.424688] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/perry/bigus-igus/ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info\n'}
+[6.425118] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[6.425522] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.434039] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[6.434824] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[6.435518] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[6.436036] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[6.436516] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[6.437042] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.437610] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.438204] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.438862] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[6.445855] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[6.446414] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/perry/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[6.446878] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[6.447309] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.447851] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.448448] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.454499] (py_pubsub) StdoutLine: {'line': b'copying /home/perry/bigus-igus/ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.455118] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[6.455785] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.456268] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.456767] (py_pubsub) StdoutLine: {'line': b"removing '/home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.457739] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/perry/bigus-igus/ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[6.458507] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.459007] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/perry/bigus-igus/ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[6.459498] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/perry/bigus-igus/ws/build/teleop_twist_keyboard/install.log'\n"}
+[6.518121] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/perry/bigus-igus/ws/install/py_pubsub/lib/py_pubsub\n'}
+[6.519030] (-) TimerEvent: {}
+[6.522402] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/perry/bigus-igus/ws/install/py_pubsub/lib/py_pubsub\n'}
+[6.547758] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/perry/bigus-igus/ws/build/py_pubsub/install.log'\n"}
+[6.612930] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[6.625258] (-) TimerEvent: {}
+[6.728112] (-) TimerEvent: {}
+[6.831130] (-) TimerEvent: {}
+[6.877656] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[6.883003] (py_pubsub) CommandEnded: {'returncode': 0}
+[6.931482] (-) TimerEvent: {}
+[7.033798] (-) TimerEvent: {}
+[7.116574] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.122502] (-) EventReactorShutdown: {}

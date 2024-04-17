@@ -54,13 +54,13 @@ source <work_space_created>/install/local_setup.bash
 ```
 Launch de py_pubsub launch file
 ```
-ros2 launch py_pubsub py_pubsub_launch.py
+ros2 launch py_pubsub py_pubsub_launch.py can_port:=can0
 ```
 
 ### Run and test the keyboard control
 Run
 ```
-ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p can_port:=can0
 ```
 *  --ros-args -r __ns:=/namespace_1
 
